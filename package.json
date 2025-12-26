@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start",
-    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -35,5 +34,4 @@
     "vite": "^7.2.4"
   },
   "homepage": "https://vaishnaviav.github.io/happy-cart"
-
 }
