@@ -2,70 +2,18 @@ body{
     background-color: #FFF3DA;
     font-family: Arial, Helvetica, sans-serif;
 }
-.navbar{
+
+.cards {
     display: flex;
-    
-    justify-content: space-evenly;
-    padding: 10px;
-    
-    margin-top: 20px;
-    background-color: #DFCCFB;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:1.5rem;
+    padding:1rem;
+    box-sizing:border-box;
+
 }
-.loginfull{
-    display: flex;
-}
-.cartfull{
-    display: flex;
-}
-.logo{
-    margin-left: 30px;
-    margin-right:30px;
-    border:2px solid rgb(113, 204, 223);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    border-radius: 3px;
-    background-color:rgb(113, 204, 223);
-    color: white;
-}
-.search-bar{
-    width:500px;
-    height:30px;
-    border-radius: 4px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rgba(255, 255, 255, 0.858);
-}
-.login{
-    margin-right: 30px;
-    margin-top: 10px;
-}
-.cart{
-    margin-top: 10px;
-    margin-left: 0px;
-}
-.login-icon{
-    margin-top: 10px;
-}
-.cart-icon{
-    margin-top: 10px;
-}
-.menu{
-    margin-top: 10px;
-    margin-left: 50px;
-}
-.products{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #BEADFA;
-    height: 30px;
-    align-items: center;
-}
-.electronics:hover,.fashion:hover,.grocery:hover,.home-furniture:hover{
-    border: 2px solid white;
-    padding: 4px;
-}
-.beauty-card,.comp-card{
+
+/* .beauty-card,.comp-card{
     display: flex;
     flex-direction: column;
 
@@ -117,4 +65,4 @@ body{
     margin-bottom:30px;
     margin-left: 20px;
    
-}
+} */
